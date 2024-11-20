@@ -1,0 +1,40 @@
+# This is a comment  
+# Rust specific ignores  
+
+# The target directory is where compiled files will be stored  
+/target/  
+
+# Cargo.lock file can be ignored in library projects  
+# Uncomment the next line if you are building a library rather than an executable  
+# Cargo.lock  
+
+# Backup files from IDEs  
+*.swp  
+*.swo  
+
+# MacOS specific files  
+.DS_Store  
+
+# Node modules (if using a JavaScript library)  
+node_modules/  
+
+# Other IDEs and editors  
+.idea/  
+.vscode/  
+*.iml  
+
+# Logs and temporary files  
+*.log  
+*.tmp  
+
+# Rust build cache  
+**/*.rs.bk  
+
+# Coverage reports  
+/coverage/  
+
+# Other files you might want to ignore  
+*.rs.bk  
+*.cache  
+*.aux  
+*.out
